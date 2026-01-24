@@ -1,0 +1,15 @@
+# CSS compilado (opcional ignorarlo si te lo piden en la entrega)
+# css/main.css
+
+# Dependencias
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
