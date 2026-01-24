@@ -1,6 +1,10 @@
+@charset "UTF-8";
 /* ==================================================
    ABSTRACTS
    ================================================== */
+/* Colores */
+/* Tipografía */
+/* Espaciados */
 /* ==================================================
    BASE
    ================================================== */
@@ -15,6 +19,37 @@ body {
 /* ==================================================
    COMPONENTS
    ================================================== */
+/* ==================================================
+   ABSTRACTS
+   ================================================== */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Modifier: primary */
+.btn--primary {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+/* Modifier: secondary */
+.btn--secondary {
+  background-color: #1f2933;
+  color: #ffffff;
+}
+
+/* Estado hover (SMACSS) */
+.btn:hover {
+  opacity: 0.9;
+}
+
 /* ==================================================
    PAGES
    ================================================== */
