@@ -1,35 +1,49 @@
 /* ==================================================
    ABSTRACTS
    ================================================== */
+@use "abstracts/variables";
+@use "abstracts/mixins";
+@use "abstracts/functions";
+
 /* ==================================================
    BASE
    ================================================== */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+@use "base/reset";
+@use "base/base";
+@use "base/typography";
 
 /* ==================================================
    LAYOUT
    ================================================== */
+@use "layout/header";
+@use "layout/footer";
+@use "layout/grid";
+@use "layout/sections";
+
 /* ==================================================
    COMPONENTS
    ================================================== */
+@use "components/buttons";
+@use "components/cards";
+@use "components/navbar";
+@use "components/hero";
+
 /* ==================================================
    PAGES
    ================================================== */
+@use "pages/home";
+
 /* ==================================================
    STATES (SMACSS)
    ================================================== */
-.is-active {
-  font-weight: bold;
-}
+@use "states/states";
 
 /* ==================================================
    THEMES
    ================================================== */
+@use "themes/default";
+
 /* ==================================================
    VENDORS
    ================================================== */
-
-/*# sourceMappingURL=main.css.map */
+@use "vendors/bootstrap";
