@@ -36,3 +36,14 @@
     font-size: 1.25rem;
   }
 }
+
+.hero {
+  padding: 3rem 1.5rem;
+  text-align: center;
+
+  @include mixins.respond-to(md) {
+    padding: 5rem 2rem;
+    text-align: left;
+  }
+}
+
