@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as v;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: v.$spacing-md;
+}
+
+.navbar__logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: v.$spacing-md;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: v.$color-secondary;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Estado activo (SMACSS) */
+.navbar__link.is-active {
+  color: v.$color-primary;
+}
+
+/* Hover */
+.navbar__link:hover {
+  color: v.$color-primary;
+}
