@@ -1,0 +1,31 @@
+@use "../abstracts/variables" as v;
+
+.card {
+  background-color: v.$color-white;
+  padding: v.$spacing-md;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card__title {
+  margin-bottom: v.$spacing-sm;
+  font-size: 1.2rem;
+}
+
+.card__text {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}   
+
+/* Modifier: feature */
+.card--feature {
+  text-align: center;
+}
+
+/* Estado hover (SMACSS) */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}

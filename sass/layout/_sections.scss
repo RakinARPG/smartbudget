@@ -1,0 +1,20 @@
+@use "../abstracts/variables" as v;
+
+/* =========================
+   FEATURES SECTION
+   ========================= */
+
+.features {
+  padding: v.$spacing-md;
+}
+
+.features__title {
+  text-align: center;
+  margin-bottom: v.$spacing-md;
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: v.$spacing-md;
+}
