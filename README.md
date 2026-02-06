@@ -46,27 +46,27 @@ smartbudget/
 
 ## Desiciones técnicas
 
-## Metodología CSS
+### Metodología CSS
 
 Se utilizó BEM (Block, Element, Modifier) para la nomenclatura de clases, ya que permite una estructura clara, reutilizable y fácil de mantener.
 Para los estados visuales (por ejemplo, links activos), se aplicó la convención SMACSS mediante clases como is-active, separando el estado del componente de su estructura.
 
-## SASS y patrón 7–1
+### SASS y patrón 7–1
 
 Se implementó SASS con el patrón 7–1 para organizar los estilos según su responsabilidad.
 Esta estructura facilita la escalabilidad del proyecto y permite mantener los estilos ordenados a medida que el sitio crece.
 
-## Layout y diseño
+### Layout y diseño
 
 CSS Grid se utilizó en la sección de features para lograr una distribución flexible y responsive de las cards.
 
 Flexbox se utilizó en el navbar y el hero para alinear y distribuir elementos de forma sencilla y controlada.
 
-## Resposive Design
+### Resposive Design
 
 El diseño se abordó con una estrategia mobile-first, utilizando media queries para mejorar la experiencia en pantallas medianas y grandes sin romper la estructura base.
 
-## Control de versionsa
+### Control de versionsa
 
 Se utilizó Git desde el inicio del proyecto, realizando commits pequeños y descriptivos.
 Se siguió una convención básica de commits:
@@ -80,6 +80,10 @@ chore: tareas de mantenimiento
 docs: documentación
 
 Esto permite mantener un historial claro y fácil de seguir
+
+### Bootstrap
+Bootstrap se integró de forma puntual en una sección específica del sitio para cumplir con la consigna, utilizando su sistema de grillas y componentes sin reemplazar los estilos personalizados del proyecto.
+
 
 
 ## Autor
