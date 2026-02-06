@@ -5,6 +5,7 @@
 /* Colores */
 /* Tipografía */
 /* Espaciados */
+/* Break points*/
 /* ==================================================
    BASE
    ================================================== */
@@ -37,6 +38,11 @@ body {
   gap: 1rem;
 }
 
+@media (min-width: 992px) {
+  .features {
+    padding: 4rem 0;
+  }
+}
 /* ==================================================
    COMPONENTS
    ================================================== */
@@ -144,6 +150,16 @@ body {
   color: #4CAF50;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /* ==================================================
    ABSTRACTS
    ================================================== */
