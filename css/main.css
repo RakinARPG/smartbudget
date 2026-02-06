@@ -190,6 +190,14 @@ body {
   margin-top: 1rem;
 }
 
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__description {
+    font-size: 1.25rem;
+  }
+}
 /* ==================================================
    PAGES
    ================================================== */
